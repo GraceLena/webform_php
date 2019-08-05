@@ -1,0 +1,146 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+#log-form {
+	display: flex;
+	align-items: center;
+}
+
+#btn-log {
+	margin-left: 30px;
+}
+
+.user-log {
+	margin-right: 30px;
+}
+
+.user-log, .user-pwd {
+	margin-left: 5px;
+}
+
+h1 {
+	margin: 10px 0;
+}
+
+p {
+	text-align: justify;
+}
+
+input[type="text"], select {
+	padding: 0 3px;
+	height: 25px;
+	border: 1px solid #00000020;
+	border-radius: 3px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	margin: 0 5px;
+}
+
+textarea {
+	margin: 10px 0;
+	width: 400px;
+	height: 150px;
+	font-family: Arial;
+	font-size: 14px;
+	resize: none;
+	border-radius: 5px;
+	padding: 5px;
+	border: 1px solid #00000020;
+}
+
+.container {
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 800px;
+	padding: 20px;
+	border: 1px solid #00000020;
+	border-radius: 10px;
+}
+
+	.user-name {
+		display: flex;
+	}
+
+		.user-name_labels, .user-name_inputs {
+			display: flex;
+			flex-direction: column;			
+		}
+
+		.user-name_labels label {
+			margin: 5px 0;
+			height: 23px;
+			padding-top: 4px;
+		}
+
+		.user-name_inputs input {
+			margin: 5px;			
+		}
+
+	.user-sex {
+		padding: 10px 0;
+	}
+
+	.user-document input[type="text"] {
+		margin: 0 10px;
+	}
+
+	.user-document div {
+		margin-top: 10px;
+	}
+
+	.user-contacts {
+		display: flex;
+	}
+
+		.user-contacts_labels, .user-contacts_inputs {
+			display: flex;
+			flex-direction: column;			
+		}
+
+		.user-contacts_labels label {
+			margin: 5px 0;
+			height: 23px;
+			padding-top: 4px;
+		}
+
+		.user-contacts_inputs input {
+			margin: 5px;
+			
+		}
+
+	.user-rules {
+		margin-top: 10px;
+	}
+
+	.comments {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		margin-top: 15px;
+	}
+
+.blank-field {
+	color: grey;
+	font-style: italic;
+}
+
+.hideForm {
+	display: none;
+}
+
+.accepted {
+	margin-left: 10px;
+	color: #00b703;
+}
+
+.non-accepted {
+	margin-left: 10px;
+	color: #ff0000;
+}

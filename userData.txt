@@ -1,0 +1,10 @@
+fn:Павлова
+sn1:Елена
+sn2:Анатольевна
+sex:female
+ed:5
+doc:паспорт
+n_doc:12345
+tel:89046029582
+mail:pavlova.inbox@gmail.com
+comment:юбюююююю юююю
